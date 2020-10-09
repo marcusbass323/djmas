@@ -56,11 +56,6 @@ export default function Music() {
             />
             </div>
             </div>
-
-    {/* < div className="NewJack">
-      <button id="play" onClick={start}>Play</button>
-      <button id="pause" onClick={pause}>II</button>
-    </div > */}
         </div>
 
     )
