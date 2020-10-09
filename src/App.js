@@ -50,7 +50,7 @@ function App() {
   };
 
   function scrollToMusic(){
-    scroller.scrollTo("Music", {
+    scroller.scrollTo("MusicContainer", {
       duration: 800,
       delay: 0,
       smooth: "easeInOutQuart",

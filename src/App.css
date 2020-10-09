@@ -9,7 +9,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-color: black;
-  padding-top: 75px;
+  padding-top: 100px;
   display: flex;
   flex-direction: row;
 }
@@ -71,6 +71,7 @@ button {
 
 #Events {
   height: 100vh;
+  padding-top: 25px;
   width: 100vw;
   color: white;
   background-image: url("./Assets/BG3.png");
@@ -194,6 +195,7 @@ button {
 
 .MusicContainer {
   height: auto;
+  padding-top: 25px;
   width: 100vw;;
   background-color: black;
   color: white;
