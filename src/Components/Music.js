@@ -7,23 +7,53 @@ export default function Music() {
         <div className="MusicContainer">
             <h1 id="musicHeader" className="headerTitle">Music</h1>
             <div id="Music">
-            <div className="player">
-            <ReactPlayer url='https://www.youtube.com/watch?v=A7FJIGZDgdU' />
+            <div className="wrapper">
+            <ReactPlayer 
+            className="player" 
+            url='https://www.youtube.com/watch?v=A7FJIGZDgdU' 
+            width='100%'
+            height='100%'
+            />
             </div>
-            <div className="player">
-            <ReactPlayer url="https://youtu.be/uBnK0gxVG2s" />
+            <div className="wrapper">
+            <ReactPlayer 
+            className="player" 
+            url="https://youtu.be/uBnK0gxVG2s" 
+            width='100%'
+            height='100%'
+            />
             </div>
-            <div className="player">
-            <ReactPlayer url='https://www.youtube.com/watch?v=meXCcayQXTw' />
+            <div className="wrapper">
+            <ReactPlayer 
+            className="player" 
+            url='https://www.youtube.com/watch?v=meXCcayQXTw' 
+            width='100%'
+            height='100%'
+            />
             </div>
-            <div className="player">
-            <ReactPlayer url="https://www.youtube.com/watch?v=ZyhnxhorHQQ&t=36s" />
+            <div className="wrapper">
+            <ReactPlayer 
+            className="player" 
+            url="https://www.youtube.com/watch?v=ZyhnxhorHQQ&t=36s" 
+            width='100%'
+            height='100%'
+            />
             </div>
-            <div className="player">
-            <ReactPlayer url="https://www.youtube.com/watch?v=YyXC-EKfqoI" />
+            <div className="wrapper">
+            <ReactPlayer 
+            className="player" 
+            url="https://www.youtube.com/watch?v=YyXC-EKfqoI" 
+            width='100%'
+            height='100%'
+            />
             </div>
-            <div className="player">
-            <ReactPlayer url="https://youtu.be/kDFJlEOZzG8" />
+            <div className="wrapper">
+            <ReactPlayer 
+            className="player" 
+            url="https://youtu.be/kDFJlEOZzG8" 
+            width='100%'
+            height='100%'
+            />
             </div>
             </div>
 
