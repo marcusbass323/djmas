@@ -10,7 +10,7 @@ export default function Music() {
             <div className="wrapper">
             <ReactPlayer 
             className="player" 
-            url='https://www.youtube.com/watch?v=A7FJIGZDgdU' 
+            url='https://youtu.be/NEO1OzOs3A4' 
             width='100%'
             height='100%'
             />
@@ -29,7 +29,7 @@ export default function Music() {
             <div className="wrapper">
             <ReactPlayer 
             className="player" 
-            url="https://www.youtube.com/watch?v=NEO1OzOs3A4" 
+            url="https://youtu.be/YyXC-EKfqoI" 
             width='100%'
             height='100%'
             />
@@ -38,7 +38,7 @@ export default function Music() {
             <div className="wrapper">
             <ReactPlayer 
             className="player" 
-            url="https://youtu.be/YyXC-EKfqoI" 
+            url="https://youtu.be/A7FJIGZDgdU" 
             width='100%'
             height='100%'
             />
