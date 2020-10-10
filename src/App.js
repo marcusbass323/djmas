@@ -69,12 +69,11 @@ function App() {
       <Navbar id="nav" bg="light" expand="lg">
         <Nav className="navigation" >
           <Nav.Link className="middle" id="Home" onClick={scrollToHome}>Home</Nav.Link>
-          {/* <Nav.Link className="middle" onClick={scrollToLivestream}>Livestream</Nav.Link> */}
           <Nav.Link className="middle" onClick={scrollToAbout}>About</Nav.Link>
           <Nav.Link className="middle" onClick={scrollToMusic}>Music</Nav.Link>
           <Nav.Link className="middle" onClick={scrollToEvents}>Tour/Events</Nav.Link>
           <Nav.Link className="middle" onClick={scrollToAbout}>Social Media</Nav.Link>
-          <Form action="mailto:dj.xerokool@gmail.com" method="get" enctype="text/plain">
+          <Form action="mailto:iamdjmas@gmail.com" method="get" enctype="text/plain">
           <button type="submit" className="middle" >Booking Information / Contact</button>
           </Form>
         </Nav>
