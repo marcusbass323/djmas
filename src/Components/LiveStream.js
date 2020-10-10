@@ -1,26 +1,57 @@
-import React from 'react';
-import ReactLivestream from 'react-livestream';
+// import React from 'react';
+// import videojs from 'video.js'
+// import awsvideoconfig from './aws-video-exports'
+// import './App.css'
+// import 'video.js/dist/video-js.css'
 
-export default function LiveStream() {
+// export default function LiveStream() {
 
-    function OfflineComponent() {
-        return (
-          <div id="offline">
-            <p>I am offline now, but checkout my stream on Fridays at 5 PM EST</p>
-          </div>
-        )
-      }
+//   componentDidMount() {
+//     this.player = videojs(this.videoNode, this.props)
+//   }
 
-    return (
-        <div id="Livestream">
-            <h1>Livestream</h1>
-            <div id="stream">
-            <ReactLivestream
-              platform="twitch"
-              twitchDataUrl="ENDPOINT_URL"
-              twitchUserName="djxerokool"
-            />
-            </div>
-        </div>
-    )
-}
+//   componentWillUnmount() {
+//     if (this.player) {
+//       this.player.dispose()
+//     }
+//   }
+
+//   render() {
+//     return (
+//       <>
+//         <div data-vjs-player style={{
+//           width: 960, height: 540
+//         }}>
+//           <video ref={(node) => { this.videoNode = node; }} className="video-js" />
+//         </div>
+//       </>
+//     );
+//   }
+// }
+
+// const videoJsOptions = {
+//   autoplay: true,
+//   controls: true,
+//   sources: [{
+//     src: awsvideoconfig.awsOutputLiveLL,
+//   }]
+// }
+
+// export default function LiveApp() {
+//   return (
+//     <div>
+//       <nav style={nav}>
+//         <p style={navHeading}>Live Streaming with React & AWS</p>
+//       </nav>
+//       <div style={container}>
+//         <VideoPlayer {...videoJsOptions} />
+//       </div>
+//     </div>
+//   );
+// }
+
+// const nav = { padding: '0px 40px', height: 60, borderBottom: '1px solid #ddd', display: 'flex', alignItems: 'center' }
+// const container = { paddingTop: 40, width: 960, margin: '0 auto' }
+// const navHeading = { margin: 0, fontSize: 18 }
+
+

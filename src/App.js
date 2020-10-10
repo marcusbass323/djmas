@@ -70,7 +70,6 @@ function App() {
     <div >
       <Navbar id="nav" bg="light" expand="lg">
         <Nav className="navigation" >
-          <img src={Logo} alt="logo" id="logo" />
           <Nav.Link className="middle" id="Home" onClick={scrollToHome}>Home</Nav.Link>
           {/* <Nav.Link className="middle" onClick={scrollToLivestream}>Livestream</Nav.Link> */}
           <Nav.Link className="middle" onClick={scrollToAbout}>About</Nav.Link>

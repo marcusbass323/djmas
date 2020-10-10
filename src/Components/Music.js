@@ -15,38 +15,8 @@ export default function Music() {
             height='100%'
             />
             </div>
-            <div className="wrapper">
-            <ReactPlayer 
-            className="player" 
-            url="https://youtu.be/uBnK0gxVG2s" 
-            width='100%'
-            height='100%'
-            />
-            </div>
-            <div className="wrapper">
-            <ReactPlayer 
-            className="player" 
-            url='https://www.youtube.com/watch?v=meXCcayQXTw' 
-            width='100%'
-            height='100%'
-            />
-            </div>
-            <div className="wrapper">
-            <ReactPlayer 
-            className="player" 
-            url="https://www.youtube.com/watch?v=ZyhnxhorHQQ&t=36s" 
-            width='100%'
-            height='100%'
-            />
-            </div>
-            <div className="wrapper">
-            <ReactPlayer 
-            className="player" 
-            url="https://www.youtube.com/watch?v=YyXC-EKfqoI" 
-            width='100%'
-            height='100%'
-            />
-            </div>
+
+
             <div className="wrapper">
             <ReactPlayer 
             className="player" 
@@ -55,6 +25,25 @@ export default function Music() {
             height='100%'
             />
             </div>
+
+            <div className="wrapper">
+            <ReactPlayer 
+            className="player" 
+            url="https://www.youtube.com/watch?v=NEO1OzOs3A4" 
+            width='100%'
+            height='100%'
+            />
+            </div>
+
+            <div className="wrapper">
+            <ReactPlayer 
+            className="player" 
+            url="https://youtu.be/YyXC-EKfqoI" 
+            width='100%'
+            height='100%'
+            />
+            </div>
+
             </div>
         </div>
 
