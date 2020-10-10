@@ -1,6 +1,5 @@
 import React from 'react';
-import {Form,Navbar} from 'react-bootstrap';
-import Nav from 'react-bootstrap/Nav';
+import {Form,Navbar, Nav} from 'react-bootstrap';
 import Logo from './Assets/xeroKool.png';
 import { scroller } from "react-scroll";
 import './App.css';
@@ -8,12 +7,11 @@ import './App.css';
 //COMPONENTS
 import Head from './Components/Header';
 import Music from './Components/Music';
-import Contact from './Components/Contact';
 import About from './Components/About';
 import Home from './Components/Home';
 import Events from './Components/Events';
-import LiveStream from './Components/LiveStream';
 import Footer from './Components/Footer';
+
 
 function App() {
 

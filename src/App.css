@@ -4,7 +4,6 @@
 .About {
   height: auto;
   width: 100vw;
-  background-image: url('/AboutBG.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -52,6 +51,24 @@ button {
   cursor: pointer;
 }
 
+.carousel-indicators {
+  display: none;
+}
+
+.carousel-control-prev-icon {
+  display: none;
+}
+
+.carousel-control-next-icon{
+  display: none;
+}
+
+.carouselContainer {
+  width: 100vw;
+  height: 100vh;
+}
+
+
 #comingSoon {
   margin: 10%;
   font-size: 100px;
@@ -74,7 +91,7 @@ button {
   padding-top: 25px;
   width: 100vw;
   color: white;
-  background-image: url("./Assets/BG3.png");
+  background-image: url("./Assets/BG2.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -147,14 +164,7 @@ button {
   width: 100vw;
 }
 
-#Homepage {
-  width: 100vw;
-  height: auto;
-  background-image: url('./Assets/zero.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100%;
-}
+
 
 #Livestream {
   width: 100vw;
@@ -196,9 +206,13 @@ button {
 .MusicContainer {
   height: auto;
   padding-top: 25px;
-  width: 100vw;;
-  background-color: black;
+  width: 100vw;
+  height: 100vh;
   color: white;
+  background-image: url("./Assets/mas1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 #Music {
@@ -223,15 +237,6 @@ button {
   width: 100vw;
   display: flex;
   flex-direction: row;
-}
-
-.NewJack {
-  background-image: url("./Assets/NewJack.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 500px;
-  width: 50%;
 }
 
 .player {
