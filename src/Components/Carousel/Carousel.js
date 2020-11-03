@@ -1,17 +1,19 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
+import './Carousel.css';
 
 //IMAGES
-import Carousel1 from '../Assets/djmas.png';
-import Carousel2 from '../Assets/mas1.png';
-import Carousel3 from '../Assets/mas2.png';
-import Carousel4 from '../Assets/mas3.png';
+import Carousel1 from '../../Assets/3.png';
+import Carousel2 from '../../Assets/2.png';
+import Carousel3 from '../../Assets/1.png';
+import Carousel4 from '../../Assets/4.png';
+import Carousel5 from '../../Assets/5.png';
 
 
 export default class HeaderCarousel extends React.Component {
     render() {
         return (
-            <div>
+            <div id="Container">
                 <Carousel
                 >
                     <Carousel.Item className="carouselContainer">
@@ -43,6 +45,13 @@ export default class HeaderCarousel extends React.Component {
                         />
                     </Carousel.Item>
                 </Carousel>
+                <Carousel.Item className="carouselContainer">
+                        <img
+                            className="d-block w-100 carouselImg"
+                            src={Carousel5}
+                            alt="Fourth slide"
+                        />
+                    </Carousel.Item>
             </div>
 
         )

@@ -29,7 +29,7 @@
 
 body {
   margin: 0;
-  background-color: black;
+  /* background-color: black; */
 }
 
 #body {
@@ -50,24 +50,6 @@ button {
   color: white;
   cursor: pointer;
 }
-
-.carousel-indicators {
-  display: none;
-}
-
-.carousel-control-prev-icon {
-  display: none;
-}
-
-.carousel-control-next-icon{
-  display: none;
-}
-
-.carouselContainer {
-  width: 100vw;
-  height: 100vh;
-}
-
 
 #comingSoon {
   margin: 10%;
@@ -134,7 +116,7 @@ button {
   background-color: black;
 }
 
-.headerTitle{
+.Title{
   font-family: 'Anton', sans-serif;
   font-size: 2rem;
   color: white;
@@ -248,56 +230,15 @@ button {
   margin: 10px;
 }
 
-#socialHeader {
-  margin-bottom: 15px;
-  margin-top: -25px;
-}
 
 .SocialMedia {
   width: 50%;
   display: flex;
   flex-direction: column;
+  background-color: black;
 }
 
 .form-control {
   width: 30%;
 }
 
-@media only screen and (max-width: 600px) {
-
-  body {
-    overflow-x: hidden;
-  }
-
-.About {
-  display: flex;
-  flex-direction: column;
-}
-
-.AboutText {
-  border: none;
-  width: 100vw;
-  padding: 5px;
-
-}
-
-#IG {
-  display: inline;
-}
-
- #nav {
-      display: none;
-  }
-
-#socialHeader {
-  display: flex;
-  flex-direction: row;
-}
-
-  .SocialMedia {
-    width: 100vw;
-    margin-top: 25px;
-  }
-
-
-}
